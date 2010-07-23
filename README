@@ -1,15 +1,23 @@
-:: Longhorn WebOS (LWS) ::
+		:: Longhorn WebOS (LWS) ::
 
+-----
 Originaly created by Leon Bollerup (http://www.maleo.se/users/lsb) - mail@r2x2.com
+-----
+
 
 Maintainers:
+-------------
  * Overseere: Leon Bollerup (leonbollerup on BetaArchive)
  * Git maintainer: Skynet on BetaArchive
+
+
 
 If you want commit access
 ---------------------------
  1. Setup a github account
  2. Contact "Skynet" on BA with your github username
+
+
 
 To get the source code:
 --------------------------
