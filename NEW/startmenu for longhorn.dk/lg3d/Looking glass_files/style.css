@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	font-weight: 500;
+	font-variant: small-caps;
+	text-decoration: none;
+	margin: 80px;
+	border-top-color: #ff8000;
+	border: 1px none #ff8000;
+	background: #cccccc;
+}
+
+lien {
+	color: #b3b3b3;
+}h1 {
+	color: #1f314f;
+	font-size: 22px;
+	font-weight: bold;
+	font-variant: normal;
+	text-align: center;
+	padding: 20px;
+	display: inline-table;
+	border: double #ff8000 1px;
+}
+
+h2 {
+	padding: 10px;
+	color: #1f314f;
+	text-align: center;
+	font: small-caps 500 18px LucidaGrande;
+}
+
+/*<group=Link>*/
+
+a:link {color: green; text-decoration: none;
+	text-align: left;
+	font-family: "Lucida Grande";
+	font-variant: normal;
+}
+a:visited {color: gray; text-decoration: none;
+	font-family: "Lucida Grande";
+	font-variant: normal;
+}
+a:hover {color: #ff8000;
+	text-decoration: none;
+	font-family: "Lucida Grande";
+	font-variant: normal;
+}
+	
+/*</group>*/

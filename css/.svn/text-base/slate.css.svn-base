@@ -1,0 +1,102 @@
+.taskbar {
+	position: absolute;
+	z-index: 1000001;
+	bottom: 0;
+	left: 0;				
+	width: 100%;
+	height:	30px;
+	background-image: url('../images/taskbar_borderbg.png');	
+}	
+.taskbar_button {
+	position: absolute;
+	z-index: 2;
+	width: 82px;
+	height: 30px;
+	bottom: 0px;
+	left: 0px;
+}
+.debugconsole {
+	position: absolute;
+	display: none;
+	z-index: 1000003;
+	width: 525px;
+	height:	324px;
+	bottom: 5px;
+	right: 9px;
+	
+	
+		
+}
+.taskbar_debugconsole {
+	position: absolute;
+	z-index: 2;
+	width: 31px;
+	height: 30px;
+	bottom: 0px;
+	right: 156px;
+}
+
+.taskbar_min_sidebar {
+	position: absolute;
+	z-index: 2;
+	width: 31px;
+	height: 30px;
+	bottom: 0px;
+	right: 125px;
+}
+
+
+.systray {
+	display: none;	
+	position: absolute;
+	z-index: 1000002;
+	bottom: 0px;
+	right: 0px;				
+	width: 250px;
+	height: 30px;
+}	
+
+
+
+.sidebar {
+	position: absolute;
+	z-index: 1000002;
+	top: 0px;
+	right: 0px;	
+	width: 125px;
+	height: 100%;			
+	background-image: url('../images/sidebar/background.png');	
+}
+
+.desktopCalendar {
+	position: absolute;
+	z-index: 1000003;
+	width: 525px;
+	height: 324px;
+	bottom: 5px;
+	right: 9px;
+	background-image: url('../images/SidebarDesktopCalendar/background.png');	
+}
+
+.desktopicon_normal {
+	position: relative;
+	width: 75px;
+	height: 65px;
+	font-family: arial;
+	font-size: 10px;
+	padding-top: 5px;
+	float: left;
+	background-image: url('');		
+}
+
+.desktopicon_mo {
+	position: relative;
+	width: 75px;
+	height: 65px;
+	font-family: arial;
+	font-size: 10px;
+	padding-top: 5px;
+	float: left;
+	background-image: url('../images/mouse_over.png');
+	background-repeat: no-repeat;
+}

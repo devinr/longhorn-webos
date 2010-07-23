@@ -1,0 +1,53 @@
+#sddm{	margin: 0;
+	padding: 0;
+	z-index: 30;
+	height:	20x
+	}
+
+#sddm li{	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 10px arial
+	}
+
+#sddm li a{	
+	display: block;
+	zIndex: 10000;
+	margin: 0 0px 0 0;
+	padding: 4px 0px;
+	width: 70px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none
+	}
+
+#sddm li a:hover{	
+	background-image: url('../images/filemenu_selected.png')
+	}
+
+#sddm div{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 3px 8px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #000000;
+		font: 11px arial}
+
+	#sddm div a:hover{	
+		background: #49A3FF;
+		color: #FFF
+	}

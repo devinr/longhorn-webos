@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<script type="text/javascript" src="settings.js.php"></script>
+		<script type="text/javascript" src="core/kernel.js.php"></script>
+		
+    <script type="text/javascript" src="core/sidebarDesktopCalendar.js"></script>	
+		<script type="text/javascript" src="core/floating-window.js"></script>
+		<script type="text/javascript" src="core/ajax.js"></script>
+
+				
+    <link rel="stylesheet" href="css/themes/standard/windowmanager.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="css/general.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="css/slate.css" 	media="screen" type="text/css">
+            
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Longhorn</title>
+	</head>
+	<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+		<div id="desktop" class="desktop" onclick="kernel.desktop.onLeftClick()"></div>
+		
+		
+		
+   	<script>
+   		//kernel.debug.init needs to run after BODY have been created in order to attach the div to body
+   		kernel.debug.init();
+
+			//OK, so faar so good, page is loaded, lets init our kernel.
+			window.onload = kernel.init.boot;
+
+			//Lets add some icons to the desktop
+			kernel.desktop.addIconToDesktop('Test icon', 'images/icons/Globe.png', kernel.windowmanager.create, '1000', '400', 'http://www.longhorn.dk/forum');
+			kernel.desktop.addIconToDesktop('BetaArchive', 'images/icons/Group.png', kernel.windowmanager.create, '1000', '400', 'http://betaarchive.co.uk');			
+			
+			//kernel.windowmanager.create('1000','400','','','http://www.longhorn.dk/forum')
+		</script>
+
+
+	</body>
+</html>

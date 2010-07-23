@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+
+<script>
+	function imgpreload(picture) { var iPreload = new Image(); iPreload.src = picture; return iPreload.src; }
+	var startbutton_normal 	= imgpreload('images/startbutton_normal.png');
+	var startbutton_over 	= imgpreload('images/startbutton_over.png');	
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+</head>
+
+<body scroll="no" onload="init();">
+
+
+	<img id="taskbarbg" src="images/taskbarbg.png" border="0" height="30px" width="100%" style="position: absolute; width: z-index: 999; left: 0px; bottom: -1px">
+
+	<img id="startbutton" onclick="maleo_event('click', this.id);" onmouseover="maleo_event('mover', this.id);" onmouseout="maleo_event('mout', this.id);" src="" border="0" style="position: absolute; width: z-index: 1000; left: 0px; bottom: -1px">
+
+	<div id="startmenu" style="display: none; position: absolute; width: 380px; height: 433px; z-index: 1000; left: 0px; bottom: 29px; background-image: url('images/startmenubg.png')">&nbsp;</div>
+
+<script>
+	function maleo_event(action, id) {
+		if (id == "startbutton") {
+		  if (action == "mover") { document.getElementById(id).src = startbutton_over; }
+		  if (action == "mout") { document.getElementById(id).src = startbutton_normal; }
+		  if (action == "click") { 
+		  	var obj = document.getElementById("startmenu");
+		  	if (obj.style.display == "none") { obj.style.display = "block"; }
+		  	else { obj.style.display = "none"; }
+		  }
+		}
+
+		
+	
+	}
+
+	function init() {
+		document.getElementById("startbutton").src = startbutton_normal;
+	}
+	
+</script>
+</body>
+
+</html>
