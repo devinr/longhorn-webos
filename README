@@ -11,4 +11,10 @@ If you want commit access
  1. Setup a github account
  2. Contact "Skynet" on BA with your github username
 
-
+To get the source code:
+--------------------------
+ 1. Get git (if you haven't already)
+ 2. Run the following:
+     git clone git://github.com/devinr/longhorn-webos.git
+ 3. Run this every so often to make sure your code is up to date:
+     git pull origin master
