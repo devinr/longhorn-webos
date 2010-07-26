@@ -1,8 +1,20 @@
-		:: Longhorn WebOS (LWS) ::
+		:: Longhorn WebOS (LWS) - www.longhorn.dk ::
 
------
-Originaly created by Leon Bollerup (http://www.maleo.se/users/lsb) - mail@r2x2.com
------
+LWS is opensource under the terms of GPL - http://www.gnu.org/licenses/gpl.html
+
+
+
+Orginal creator
+----------------
+Originaly created by Leon Bollerup (http://www.maleo.se/users/lsb).
+
+
+
+Sponsors:
+-------------
+ * KliKKi - (http://www.klikki.com) - Development resources & Support
+
+
 
 
 Maintainers:
@@ -10,12 +22,6 @@ Maintainers:
  * Overseere: Leon Bollerup (leonbollerup on BetaArchive)
  * Git maintainer: Skynet on BetaArchive
 
-
-
-If you want commit access
----------------------------
- 1. Setup a github account
- 2. Contact "Skynet" on BA with your github username
 
 
 
@@ -26,3 +32,13 @@ To get the source code:
      git clone git://github.com/devinr/longhorn-webos.git
  3. Run this every so often to make sure your code is up to date:
      git pull origin master
+
+
+
+
+If you want commit access
+---------------------------
+ 1. Setup a github account
+ 2. Contact "Skynet" on BA with your github username
+
+
