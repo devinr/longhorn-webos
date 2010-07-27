@@ -14,7 +14,7 @@ kernel_system.prototype.getKernelModules = function(){
 	}
 	return ret;
 }
-
+ 
 kernel_system.prototype.buildTag = function(action) {
 	if (action == "init") { 
 		var tmp 				= document.createElement('div');

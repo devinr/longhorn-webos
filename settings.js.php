@@ -16,4 +16,4 @@ var windowBorderDel = 100;
 
 //If debugmode = yes, then console messages will be sent to console, we later need to hide the console
 //deeper, eg. if debugmode=no, then debug console wont be shown at all
-var debugMode = 'yes';
+var debugMode = 'yes'; 
