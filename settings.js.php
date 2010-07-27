@@ -3,7 +3,7 @@
 
 var kernelversion = "longhorn-dk-0.0.5";
 var sidebarstatus = "on";
-var buildtag 			= 'Windows® Codename "Longhorn" Evaluation Copy - Kernel: ' + kernelversion; 
+var buildtag 			= 'Windows® Codename "Longhorn" WebOS (LWS)<br>Kernel: ' + kernelversion; 
 
 var LastWinID 		= 0;
 var sidebarWidth 	= 125;
