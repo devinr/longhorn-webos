@@ -1,8 +1,9 @@
 //General global settings
 //----------------------------------------->
 
-var kernelversion = "longhorn-dk-0.0.4";
+var kernelversion = "longhorn-dk-0.0.5";
 var sidebarstatus = "on";
+var buildtag 			= 'Windows® Codename "Longhorn" Evaluation Copy - Kernel: ' + kernelversion; 
 
 var LastWinID 		= 0;
 var sidebarWidth 	= 125;

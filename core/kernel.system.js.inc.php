@@ -15,4 +15,13 @@ kernel_system.prototype.getKernelModules = function(){
 	return ret;
 }
 
+kernel_system.prototype.buildTag = function(action) {
+	if (action == "init") { 
+		var tmp 				= document.createElement('div');
+		tmp.id 					= 'desktopBuildtag';
+		tmp.className		= 'buildtag';
+		tmp.innerHTML 	= ''+buildtag+'';
+		document.getElementById("desktop").appendChild(tmp);
+	}
+}
  
