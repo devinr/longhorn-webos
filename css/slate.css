@@ -228,3 +228,13 @@ body{
 		right:0px;
 		bottom:0px;
 	}
+
+.buildtag{
+position:fixed;
+bottom:30px;
+right:5px;
+text-align:right;
+color:white;
+font-size: 0.7em;
+font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+}
