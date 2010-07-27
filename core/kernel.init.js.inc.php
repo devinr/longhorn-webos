@@ -10,4 +10,5 @@ kernel_init.prototype.boot = function(){
 		kernel.debug.sendToConsole('kernel.init', 'System initialization completed, kernel ('+ top.kernelversion +') loaded successfull');	
 		
 		kernel.system.buildTag('init');
+
 } 

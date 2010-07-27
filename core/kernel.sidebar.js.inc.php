@@ -97,8 +97,9 @@ kernel_sidebar.prototype.cycle = function() {
 	kernel.debug.sendToConsole('kernel.sidebar.cycle', 'Cycling sidebar view (before cycling sidebar was: "'+top.sidebarstatus+'")');  
 
 	var sidebarelement = document.getElementById("sidebar");
+	var Sbuildtag = document.getElementById("desktopBuildtag");
 	var taskbartray = document.getElementById("taskbartray");
-	if (top.sidebarstatus == "on")  { sidebarelement.style.display = "none"; top.sidebarstatus = "off"; taskbartray.style.display = "block"; return; }
-	if (top.sidebarstatus == "off") { sidebarelement.style.display = "block"; top.sidebarstatus = "on"; taskbartray.style.display = "none"; return; }
+	if (top.sidebarstatus == "on")  { sidebarelement.style.display = "none"; top.sidebarstatus = "off"; taskbartray.style.display = "block"; Sbuildtag.style.right = "5px"; return; }
+	if (top.sidebarstatus == "off") { sidebarelement.style.display = "block"; top.sidebarstatus = "on"; taskbartray.style.display = "none"; Sbuildtag.style.right = "130px"; return; }
 	return;
 }	
