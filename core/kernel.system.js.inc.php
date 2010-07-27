@@ -22,10 +22,7 @@ kernel_system.prototype.buildTag = function(action) {
 		tmp.className		= 'buildtag';
 		tmp.innerHTML 	= ''+buildtag+'';
 		document.getElementById("desktop").appendChild(tmp);
-var Sbuildtag = document.getElementById("desktopBuildtag");
-	if (top.sidebarstatus == "on")  { Sbuildtag.style.right = "5px"; return; }
-	if (top.sidebarstatus == "off") { Sbuildtag.style.right = "130px"; return; }
-return;
+
 	}
         
 }
