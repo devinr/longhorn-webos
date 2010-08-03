@@ -75,7 +75,7 @@ document.onclick = mclose;
 <div style="position: absolute; width: 100%; height: 20px; z-index: 1; left: 0px; top: 0px; background-image: url('images/filemenu_center.png')" id="layer1">
 
 <ul id="sddm">
-	<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Home</a>
+	<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">File</a>
 		<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<a href="/forum"><b>Index</b></a><hr>
 		<a href="http://www.longhorn.dk/forum/ucp.php?mode=register">&nbsp;&nbsp;Register</a>
@@ -84,7 +84,7 @@ document.onclick = mclose;
 		<a href="javascript:window.close();">Exit</a>
 		</div>
 	</li>
-	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Forums</a>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Edit</a>
 		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<a href="/forum/viewforum.php?f=13"><b>Longhorn information Center</a><hr>
 		<a href="/forum/viewforum.php?f=14">&nbsp;&nbsp;Build information</a>
@@ -100,7 +100,7 @@ document.onclick = mclose;
 		<a href="/forum/viewforum.php?f=9">&nbsp;&nbsp;Lobby</a>
 		</div>
 	</li>
-	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">User</a>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">View</a>
 		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<a href="/forum/ucp.php?i=163">Overview</a>
 		<a href="/forum/ucp.php?i=164">Profile</a>
@@ -108,7 +108,7 @@ document.onclick = mclose;
 		<a href="/forum/ucp.php?i=166">Private Messages</a>
 		</div>
 	</li>
-	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Other</a>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Tools</a>
 		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<a href="/forum/memberlist.php">Members</a>
 		</div>
